@@ -1,0 +1,10 @@
+/** The chat level this chat uses. */
+export enum ChatLevel {
+    EVERYONE = 0,
+    NO_GUEST = 1,
+    STREAMER_MODERATOR_SUBSCRIBER_FOLLOWER = 2,
+    STREAMER_MODERATOR_FOLLOWER = 3,
+    STREAMER_MODERATOR_SUBSCRIBER = 4,
+    STREAMER_MODERATOR = 5,
+    STREAMER = 6
+}
